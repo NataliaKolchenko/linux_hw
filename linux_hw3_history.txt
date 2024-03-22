@@ -1,0 +1,14 @@
+   0 tree
+   1 touch newfile.txt
+   2 tree
+   3 date +'%D' > /root/newfile.txt 
+   4 df /
+   5 df -h /
+   6 df -h / >> /root/newfile.txt 
+   7 history | tail -5 >>/root/newfile.txt 
+   8 cat /proc/cpuinfo
+   9 cat /proc/cpuinfo | grep vendor >> /root/newfile.txt 
+  10 nano /root/newfile.txt 
+  11 ps -ef | sed '1,${/PID/d;}' | wc -l >> /root/newfile.txt 
+  12 nano /root/newfile.txt 
+  13 history > history.txt
