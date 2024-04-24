@@ -1,0 +1,12 @@
+   0 nano
+   1 cat /etc/services | grep snmp
+   2 nano l.sh
+   3 ps -ef
+   4 ps -ef | grep ssh
+   5 nano l.sh
+   6 chmod u+x l.sh
+   7 ls
+   8 ./l.sh
+   9 cat /logs/lan/logs.log
+  10 history
+  11 history >history.txt

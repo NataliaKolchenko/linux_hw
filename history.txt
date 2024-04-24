@@ -1,0 +1,15 @@
+   0 touch file.txt
+   1 /etc/group | wc
+   2 df -h | grep G
+   3 ps -ef
+   4 wc --help
+   5 ps -ef | wc
+   6 ps -ef | wc -l
+   7 ps -ef | wc -l tail -1
+   8 ps -r | wc -l
+   9 ps --help
+  10 ps -r | wc -l
+  11 ps -r 
+  12 col1
+  13 ps -r | wc -l
+  14 history >history.txt
